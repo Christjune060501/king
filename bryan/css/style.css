@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bck1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #2b1b17;
+	color: #fff;
+}
+
+.Welcome{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.Welcome h1{
+	color: #bcc6cc;
+	font-size: 50px;
+}
+
+.Welcome h3 span{
+	color: #bcc6cc;
+	font-family: BatmanForeverAlternate;
+}
+
+.message p{
+	color: #bcc6cc;
+	font-family: Lucida Calligraphy;
+}
+
+.part{
+	color: #bcc6cc;
+	font-family: 'Lato' , sans-serif;
+}
+
+.info{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 28px;
+	color: #bcc6cc;
+}
